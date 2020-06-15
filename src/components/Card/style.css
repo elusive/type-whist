@@ -1,0 +1,95 @@
+.card {
+    border: solid 1px #aaa;
+    border-radius: 6px;
+    width: 95px;
+    height: 150px;
+    float: left;
+    background-color: white;
+    padding: 3px 3px 3px 3px;
+}
+
+.valueTop {
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+.card .suit {
+    background-image: url(/src/assets/suits-sprite.png);
+    height: 100px;
+    width: 90px;
+}
+
+.spades {
+    color: black;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.clubs {
+    color: black;
+    background-position-x: 90px;
+    background-position-y: 100px;
+}
+
+.hearts {
+    color: red;
+    background-position-x: 90px;
+}
+
+.diamonds {
+    color: red;
+    background-position-y: 100px;
+}
+
+/* smaller cards display */
+.card2 {
+    box-sizing: border-box;
+    width: 50px;
+    height: 80px;
+    padding: 0px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    margin: 3px;
+    border: gray solid 2px;
+    font-family: Helvetica, sans-serif;
+    line-height: 0.8;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card2 .top {
+    position: relative;
+    top: 2px;
+    left: -15px;
+}
+
+.card2 .suitTop {
+    font-size: 18px;
+}
+
+.card2 .valueTop {
+    font-size: inherit;
+}
+
+.card2 .bottom {
+    position: relative;
+    bottom: -23px;
+    right: -15px;
+}
+
+.card2 .valueBottom {
+    font-size: inherit;
+}
+
+.card2 .suitBottom {
+    font-size: 18px;
+}
+
+.upsideDown {
+    display: inline-block;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+}

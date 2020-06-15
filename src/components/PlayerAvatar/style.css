@@ -1,0 +1,21 @@
+.avatar {
+    position: relative;
+    color: blue;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 170px;
+    max-width: 170px;
+    height: 230px;
+    margin: 4px;
+    padding: 4px;
+}
+
+.avatar figure {
+    margin: 4px;
+}
+
+.avatar figure img {
+    height: 188px;
+    width: 150px;
+    margin: 0;
+}
