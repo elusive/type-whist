@@ -18,19 +18,10 @@ export class PlayerView extends React.Component<PlayerViewProps, {}> {
 
     public render() {
         return (
-            <table className={styles.player} id={this.props.player.id}>
-                <thead></thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <PlayerAvatar name={this.props.player.name} />
-                        </td>
-                        <td>
-                            <HandSpread hand={this.props.player.hand} />
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div className={styles.player} id={this.props.player.id}>
+                <PlayerAvatar name={this.props.player.name} />
+                <HandSpread hand={this.props.player.hand} />
+            </div>
         );
     }
 }
